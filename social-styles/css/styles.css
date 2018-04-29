@@ -1,0 +1,750 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Alaran Moshood
+Updated: July 2015
+Notes:	Hand coded for the social network platform
+Comment: ITs fucking hard to debug the css code <(-&-)>;
+
+*/
+
+
+/* --------------------------------------
+    code meant for NEXT.PHP
+   -------------------------------------- */
+/*#nextContainer{
+   width:950px;
+   margin:0;
+   background-color:green;
+}*/
+body{
+      background:#16a085 !important;
+}
+label{
+   color:#000 !important;
+}
+
+.siteLogo{
+   width:30;
+   height:30;
+}
+
+
+#errorOutput > li{
+   color:red;
+}
+#loginContainer{
+   padding:40px;
+}
+#lbutton{
+   margin-top:10px;
+   background-color:#3071a9 !important;
+}
+/* ---------------------------
+  HOME.PHP STYLES
+-------------------------------*/
+
+#imgUpload{
+   /*visibility: hidden;*/
+   display:none;
+}
+.img50{
+   height:50px !important;
+   width:50px !important;
+   border-radius: 50px 50px 50px 50px;
+}
+.navbar-nav > li > a:hover{
+   color:#fff !important;
+}
+.navbar-nav li >a :active{
+   color:#1abc9c;
+}
+.myfa{
+   font-family:"helvetica nueu", helvetica, sans-serif !important;
+   font-size: 12px !important;
+   display:inline;
+}
+
+#updateContainer{
+   background-color:green;
+   word-wrap: break-word;
+   /*width:550px;*/
+   width:100%;
+   /*padding:10px;*/
+
+}
+.posterImage{
+   width:40px;
+   height:40px;
+}
+
+.posterName{
+   color:#fff;
+}
+
+.feedContainer{
+   background-color:rgb(0,0,15);
+
+}
+#nextHeader{
+   /*background-color:#00 !important;*/
+   height:50px;
+}
+.MyContainer{
+   width:600px;
+   margin-left:150px;
+   margin-top:50px;
+   /*background-color:#34495e;*/
+   /*height: 500px;*/
+}
+#nextContainer{
+   /*background-color: #ff9;*/
+   margin-top:20px;
+   color:;
+}
+#wellHeader{
+   background-color:#3498db;
+   color:#fff;
+}
+#picFrame{
+   width:200px;
+   min-height:100px;
+   background-color:black;
+}
+.note{
+   color:#ecf0f1 !important;
+}
+#imageInput{
+   margin-top:5px;
+   visibility: hidden;
+}
+#imageSubmit {
+   background-color:#3498db;
+   width:150px;
+   margin-top:10px;
+}
+.active{
+   background-color:#fff !important;
+}
+
+
+/*------------------------------------
+  the  Status Elements
+  ---------------------------------- */
+  .statusTime{
+
+  }
+  .media {
+   padding:5px;
+  }
+  #preImageContainer{
+   /*width:100px;*/
+   /*height:100px;*/
+   /*border:2px solid #1abc9c;*/
+  }
+  .postedMediaContainer{
+   /*width:100%;
+   height:500px;*/
+   padding:10px;
+   padding-right:0;
+   padding-left:20px;
+  }
+  .postedMediaContent{
+   /*width:520px;
+   height:300px;*/
+   padding-right:5px;
+   margin-right:5px;
+
+  }
+.previousComment{
+
+}
+.addedComment{
+ padding:3px;
+}
+.myImage{
+ width:20px;
+ height:20px;
+}
+.postedTextContainer{
+   padding:3px;
+   color:#fff;
+}
+.posterImageContainer{
+   padding:2px;
+}
+.statusLike{
+
+}
+.statusLikeValue{
+
+}
+/*************************************
+  the comment box style
+************************************* */
+.commentImage{
+  /*background-color:rgb(0,0,15);*/
+  margin:1px;
+}
+.commentInput{
+   display: inline;
+   margin:0;
+   /*width:99% !important;*/
+   height: 42px;
+   border-radius: 4px;
+}
+.input-group-addon{
+   padding:0px 0px;
+}
+
+.cbutton{
+   background-color:rgb(0,0,15);
+   margin:1px;
+
+}
+.cmter-name{
+   font-size: 14px;
+   color:#fff;
+}
+.cmter-text{
+ color:#fff;
+}
+.cmter-like{
+
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #searchInput{
+      width:300px;
+   }
+   .navbar-brand{
+      padding:13px 15px;
+   }
+   .navbar ,.nav,.dropdown-menu,.dropdown-toggle{
+      background-color:rgb(0,0,15);
+      color:rgb(255,255,255);
+   }
+  li{
+   color:#fff;
+  }
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+/*-------------------------------------
+   Index Page Contents
+-------------------------------------*/
+#LeftPane1{
+   background-color:rgb(0,0,15);
+   /*width:350px;*/
+   width:20%;
+   height:900px;
+   margin-left:10px;
+   padding:10px;
+   position:fixed;
+
+}
+
+.userImageAdd{
+   width:60px;
+   height:60px;
+   border-radius:50px 50px 50px 50px;
+}
+#loadMore{
+   width:100px;
+   padding:1px;
+}
+.userAdd{
+   border-bottom:1px dotted #fff;
+   padding-bottom:5px;
+}
+
+#rightPane1{
+   /*background-color:#355c8e;*/
+   /*width:1000px;*/
+   width:77%;
+   margin-right:3px;
+}
+.addbtn{
+   width:100px;
+   padding:3px !important;
+   background-color:rgb(66,139,202);
+}
+.username{
+   color:#ecf0f1;
+}
+#onlinePals{
+   width:20%;
+   background-color:rgb(0,0,15);
+   height:990px;
+   /*height:100%;*/
+   padding:10px;
+   /*color:#ecf0f1;*/
+   /*border:rgba(29,49,91,.3);*/
+   /*position:fixed;*/
+}
+.badge{
+   background-color:red;
+}
+.fa{
+   color:#fff;
+}
+.panehead{
+   background-color:rgb(0,0,15);
+   color:#fff;
+}
+.onlineName{
+   color:#fff;
+}
+.onlineLogo{
+   color:#10fc74;
+   margin-left:90px;
+}
+#postBoard{
+   width:74%;
+   /*background-color:#ccc;*/
+   padding:3px;
+}
+#statusContainer{
+   background-color:rgb(0,0,15);
+}
+#recentAct{
+   width:26%;
+   background-color: rgb(0,0,15);
+   height:500px;
+   padding: 10px;
+   color:#ecf0f1;
+}
+#normalpane{
+   /*background-color:green;*/
+   width:73%;
+}
+
+
+.recentOn{
+   padding-bottom: 5px;
+   border-bottom:2px dotted #fff;
+}
+
+#profPane{
+   width:25%;
+   background-color:rgba(0,0,15,1);
+   height:400px;
+   margin-top:5px;
+   margin-left:3px;
+   padding:10px;
+}
+#statusPane{
+   width:70%;
+   /*background-color: #000;*/
+   margin-right:5px;
+   margin-top:5px;
+}
+#updatebtn{
+   margin:5px;
+   width:150px;
+   background-color:rgb(0,0,15);
+}
+
+.onlineUser{
+   border-bottom:2px solid #ecf0f1;
+   padding-bottom:5px;
+}
+/*------------------------------------
+
+   Online Element Styling
+------------------------------------ */
+.img-circle, {
+   border-radius:50px 50px 50px 50px;
+}
+/* --*------------------------------------
+   Media Queries
+   --------------------------------------
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
+
+
+
+/* ------------------------------------------
+  TIMELINE .PHP STYLES
+----------------------------------------*/
+#timelineBoard{
+   width:73%;
+   /*background-color:green;*/
+}
+
+#BannerContainer{
+   height:300px;
+   background-color:rgb(0,0,15);
+   border-radius: 5px;
+}
+
+#profPictureContainer{
+   background-color:yellow;
+   width:200px;
+   height:200px;
+   position: relative;
+   left:40px;
+   top:30px;
+   border-radius: 100px 100px 100px 100px;
+}
+#tDashBoard{
+   margin-top:40px;
+   /*background-color:yellow;*/
+}
+#tsidePane{
+   /*background-color:#ccc;*/
+   width:35%;
+   height:600px;
+}
+.tImage{
+   /*left:10px;*/
+   position: relative;
+   /*top:10px;*/
+   height: 200px;
+   width:200px;
+   border-radius: 100px 100px 100px 100px;
+}
+
+#tstatusPane{
+   /*background-color:#ce88da;*/
+   width:63%;
+}
+#aboutPane{
+   background-color:rgb(0,0,15);
+   /*height:300px;*/
+   padding:3px;
+}
+#friendsPane{
+   background-color:rgb(0,0,15);
+   margin-top:20px;
+   height:280px;
+   padding:3px;
+}
+#aboutpaneHeader,#friendsHeader{
+  padding:8px;
+  background-color: #2980b9;
+  width:100%;
+  font-family:"Helvetica Neue" , Helvetica, sans-serif;
+}
+#aboutContents{
+   margin-top:2px;
+   padding:5px;
+}
+
+.friendList{
+   background-color: #cde;
+   margin:2px;
+   width:60px;
+   height: 60px;
+}
+#topFriends{
+   margin:5px;
+   /*background-color:rgb(0,0,15);*/
+}
+#timelineName{
+   font-size:25px;
+   position: relative;
+   left:50px;
+   top:40px;
+   color:#fff;
+}
+
+
+#changeImageLink{
+  position: relative;
+  top:150px;
+  left:250px;
+}
+.white{
+   color:#fff;
+}
+
+/* ------------------------------------
+  end of timeline .php styless
+--------------------------------------*/
+
+
+
+
+/*------------------------------------
+ STYLES FOR THE FRIENDS PAGE
+------------------------------------*/
+
+#fDashBoard{
+   /*background:green;*/
+   margin-top:30px
+}
+
+#fDashHeader{
+   background-color:#ccc;
+   height:60px;
+
+}
+#fDashHeaderHead{
+   padding:15px;
+   background-color:rgb(0,0,15);
+   /*background-color:#1c1f51;*/
+}
+
+#fDashHeadTalk{
+   color:#fff;
+   font-size:25px;
+   font-weight:bold;
+}
+#fDashHeaderFoot{
+   background-color:#ccc;
+}
+#fDashContainer{
+   margin-top:10px;
+   background-color: #95a5a6;
+   padding:10px;
+}
+.friends{
+   background-color:#4e55961;
+   height:150px;
+   width:370px;
+   border:3px solid #000;
+   display: inline-block;
+   margin:5px;
+   padding:10px;
+}
+
+.friendsImageContainer{
+   height:120px;
+   width:120px;
+   background-color:red;
+   border-radius: 70px 70px 70px 70px;
+   margin-right:5px;
+}
+
+.fr-image{
+   width:120px;
+   height: 120px;
+}
+.friendsName{
+   color:rgb(0,0,15);
+   font-size:18px;
+}
+.friendsDetails{
+   margin-left:6px;
+   /*background-color:red;*/
+}
+
+.ffriendscount
+{
+   font-size:17px;
+   color:#fff;
+}
+
+
+
+
+/*---------------------------------------
+   SETTINGS.PHP
+
+----------------------------------------*/
+
+#topicPane{
+   background-color:rgb(0,0,15);
+   float:left;
+   width:30%;
+   padding: 10px;
+   color:#fff;
+   height:300px;
+}
+
+#editPane{
+   background-color:#1abc9c;
+   float:right;
+   width:69%;
+   height:300px;
+   padding:10px;
+}
+
+.settingbtn {
+   margin-top:5px;
+   background-color:rgb(0,0,15) !important;
+}
+
+.ta{
+   color:#fff;
+}
+
+#myname , #mypass{
+      border-bottom:1px dotted #fff;
+}
+
+#mypass {
+   margin-top:3px;
+}
+
+
+/*------------------------------
+  MESSAGES.PHP
+------------------------------*/
+#msgContent{
+   width:1050px;
+   margin:0 auto;
+   margin-top:20px;
+   background-color:#fff;
+   height:970px;
+   /*padding:10px;*/
+}
+
+#msgHeading{
+   height: 70px;
+   /*background-color:green;*/
+   background-color: rgb(0,0,15);
+   color:#fff;
+   margin-bottom: 20px;
+}
+#messageInput{
+   height:50px;
+   margin-bottom: 3px;
+}
+#msgRightPane{
+ width:60%;
+ height: 850px;
+ /*background-color:#1abc9c;*/
+/*overflow-y:scroll;*/
+padding:5px;
+/*border: 2px solid #ccc;*/
+ /*overflow:scroll;*/
+}
+
+#msgUser{
+   height:70px;
+   border-bottom:1px solid #ccc;
+}
+#typeMsg {
+   /*height:20%;*/
+   padding:5px;
+   border:2px solid #ccc;
+   /*position: fixed;*/
+   /*background-color:yellow;*/
+}
+#userMsgContent{
+   height:80%;
+   margin-top:3px;
+   overflow-y:scroll;
+   font-family:helvetica, helvetica-nueue, sans-serif;
+   padding:7px;
+   /*background-color: red;*/
+   /*background-color:#2ecc71;*/
+   /*background-color:rgb(0,0,15);*/
+
+   /*color:#fff;*/
+}
+.userMsgItem{
+   padding:5px;
+   border-bottom:2px solid #ccc;
+}
+#msgLeftPane{
+width:39%;
+height:850px;
+/*border: 2px solid #ccc;*/
+/*overflow-y:scroll;*/
+}
+.clear{
+   clear:both;
+}
+#msgLeftPaneHead{
+   height:50px;
+   background-color:rgb(0,0,15);
+   padding:5px;
+   color:#fff;
+   border-radius:3px;
+}
+.fa-share{
+   color:#ccc;
+}
+#msgLeftPaneHead > center{
+   font-size:30px !important;
+}
+#msgLeftPaneSearch{
+   /*margin-top:10px;*/
+   margin:15px;
+   /*background-color:yellow;*/
+}
+#msgSearch{
+   width:70%;
+   display: inline;
+   margin:3px;
+
+}
+#msgFriends{
+   /*background-color: yellow;*/
+   height:750px;
+   padding:5px;
+   margin:5px;
+   overflow-y:scroll;
+}
+.msgItem{
+   height:70px;
+   /*background-color: green;*/
+   padding:10px;
+   overflow:hidden;
+   margin-right:10px !important;
+   margin-bottom:4px;
+   border-bottom: 2px solid #ccc;
+
+}
+.msgImage{
+   margin-right:7px;
+   border-radius: 50px 50px 50px 50px;
+}
+
+
+/************************
+  PROFILE .PHP STYLES 
+
+/*******************/
+.profile-tab-pane{
+   position:relative;
+   -moz-position:relative;
+   -o-position:relative;
+   -webkit-position:relative;
+   color:#fff;
+   -moz-left:350px;
+   -webkit-left:350px;
+   -o-left:350px;
+   bottom:-30px;
+}
+.profile-tab-pane a {
+   color:#fff;
+   font-weight: bold;
+   word-spacing: 5px;
+   font-size: 20px;
+}

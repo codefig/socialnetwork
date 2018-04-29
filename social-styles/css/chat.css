@@ -1,0 +1,118 @@
+.chat_box, .msg_box {
+  font: 14px "Trebuchet Ms" sans-serif;
+  cursor:pointer;
+  position: fixed;
+  bottom: 0px;
+  right: 20px;
+  background: white;
+  width: 250px;
+  border-radius: 5px 5px 0px 0px;
+}
+.msg_box{
+  bottom:-27px;
+}
+.msg_body{
+  height: 250px;
+  font-size:12px;
+  overflow-y:scroll;
+  overflow-x:hidden;
+}
+.hide-chatbox {
+  float: right;
+}
+#hd-btn, #msg-btn{
+  color: #fff;
+  /*text-decoration: none;*/
+}
+#msg-btn{
+  float:right;
+}
+
+.chat_head, .msg_head {
+  background: #f39c12;
+  padding: 15px;
+  color: white;
+  border-radius: 5px 5px 0px 0px;
+}
+.msg_head{
+  background:#3498db;
+}
+.chat_body {
+  height: 400px;
+  overflow-y: scroll;
+}
+.user {
+  cursor:pointer;
+  padding: 10px 25px;
+  position: relative;
+}
+.user:hover {
+  background: #ccc;
+}
+.user:before {
+  width: 10px;
+  height: 10px;
+  background: #1abc9c;
+  position: absolute;
+  content: "";
+  left: 8px;
+  top: 13px;
+  border-radius: 5px;
+}
+.msg_footer{
+  height:70px;
+}
+.msg_input{
+  border:transparent;
+  padding:5px;
+  border-top:2px solid #bdc3c7;
+  width:100%;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  box-sizing: border-box;
+  height: 50px;
+}
+
+.msg_a{
+  margin-top:10px;
+  margin-right:20px;
+  border-radius: 5px;
+  padding:15px;
+  background:#99ffcc;
+  margin-left:20px;
+  position: relative;
+
+}
+.msg_a:before{
+  position: absolute;
+  content:"";
+  width:0px;
+  height:0px;
+  left:-29px;
+  top:7px;
+  border: 15px solid;
+  border-color:transparent #99ffcc transparent transparent;
+}
+
+
+.msg_b{
+  margin-top:10px;
+  margin-right:20px;
+  border-radius: 5px;
+  padding:15px;
+  background:#ffff99;
+  margin-left:20px;
+  position: relative;
+
+}
+.msg_b:before{
+  position: absolute;
+  content:"";
+  width:0px;
+  height:0px;
+  right:-29px;
+  top:7px;
+  border: 15px solid;
+  border-color:transparent  transparent transparent #ffff99 ; trbl
+}

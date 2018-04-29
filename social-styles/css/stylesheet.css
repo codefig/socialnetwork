@@ -1,0 +1,219 @@
+/***
+  GLOBAL VARIABLE
+***/
+
+body, html {
+    
+    background: #FFFFFF;
+    margin:0px auto;
+    font-family: sans-serif, helvetica,arial;
+}
+
+.clear {
+    
+    clear:both;
+}
+
+.float-left {
+    
+    float: left;
+}
+
+.float-right {
+    
+    float:  right;
+}
+
+.addon {
+    
+    width: 70%;
+    margin: auto;
+}
+
+/************************************ SOCIAL HEADER*****************/
+.social-container {
+    
+    width: 100%;
+}
+
+.social-header {
+    
+    padding: 8px;
+    background: #111111;
+    color: red;
+}
+
+.social-wrap {
+    
+    width: 70%;
+    margin: auto;
+}
+
+.social-logo {
+    
+    width: 28.5714%;
+}
+
+.social-option {
+    
+    width: 70.285%;
+}
+
+
+/********SOCIAL SLIDER ****************/
+
+.social-content-wrapper {
+    
+    margin-top: 30px;
+}
+
+.social-slider {
+    
+    width: 50%;
+/*    border: 1px dashed #CCCCCC;*/
+    height: 300px;
+    color: #666666;
+}
+
+.social-slider img{
+    
+    max-width: 100%;
+}
+
+.add-color{
+    
+    color: firebrick !important;
+}
+
+
+.social-signup {
+    
+    width: 40%;
+    min-height: 300px;
+    border: 1px solid #CCCCCC;
+    border-radius: 9px;
+    box-shadow: 2px 2px 2px  #CCCCCC;
+    margin-top: 25px;
+    padding-bottom: 30px;
+}
+
+
+.social-signup h2 {
+    
+    color: #993300;
+    font-size: 1.3em;
+    padding-left: 3px;
+}
+
+.signup-wrap {
+    
+    margin: auto;
+    width: 80%;
+}
+
+.signup {
+    
+    margin-top: 10px;  
+}
+
+.input-group {
+    
+    width: 100% !important;
+}
+
+.form-control {
+    
+    border-radius: 5px !important;
+}
+
+.btn { background-image: url(../social_img/bg.png) !important;font-weight: bold !important;}
+
+.btn:hover{ background-image: url(../social_img/bg-hover.png) !important;}
+
+.signup b[alt=terms]{ color: green; cursor: pointer;}
+
+
+
+/******************************************* SOCIAL FOOTER **************/
+.social-footer {
+    
+    border-top: 1px solid #CCCCCC;
+    padding: 5px;
+    margin-top: 110px;
+    color: #666666;
+    font-size: 12px;
+}
+
+
+/**************************************************RESPONSIVE DESIGN*****************/
+
+@media screen and(max-width: 480px) {
+    
+    
+    .float-left, .float-right {
+        
+        float:none;
+    }
+    
+    .addon {
+        
+        width: 100% important;
+    }
+    
+     #social-wrapper {
+        
+        width: 100% !important;
+        background: red !important;
+    }
+    
+    .social-slider {
+        
+        width: 100%;
+    }
+    
+    .social-signup {
+        
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 770px) {
+    
+     .float-left, .float-right {
+        
+        float:none;
+    }
+    
+     .addon {
+        
+        width: 100% important;
+    }
+    
+     #social-wrapper {
+        
+        width: 100% !important;
+        padding: 5px;
+    }
+    
+    .social-slider {
+        
+        width: 100%;
+        text-align: center;
+    }
+    
+    .social-signup {
+        
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    
+    
+}
+
+@media screen and (min-width: 1000px) {
+    
+    
+}
